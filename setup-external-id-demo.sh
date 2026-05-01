@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# AZ-204 — Microsoft Entra External ID demo provisioner (FRESH-RUN MODE)
+# Microsoft Entra External ID demo provisioner (FRESH-RUN MODE)
 #
 # Each run:
 #   1. Tears down any existing demo resources with the same names
@@ -50,7 +50,7 @@ banner(){ printf "\n%s%s%s\n" "$c_mag" "$1" "$c_off"; }
 
 # ── preflight ────────────────────────────────────────────────────────────────
 banner "════════════════════════════════════════════════════════════════"
-banner "  AZ-204 · Microsoft Entra External ID · LIVE DEMO PROVISIONER"
+banner "  Microsoft Entra External ID · LIVE DEMO PROVISIONER"
 banner "════════════════════════════════════════════════════════════════"
 
 step "0" "Preflight checks"
@@ -335,7 +335,7 @@ PY
   cat > "$PROJECT_DIR/Views/Home/Index.cshtml" <<'CSHTML'
 @{ ViewData["Title"] = "Home Page"; }
 <div class="text-center">
-  <h1 class="display-4">AZ-204 External ID Demo</h1>
+  <h1 class="display-4">External ID Demo</h1>
   <p class="lead">Signed in via <strong>Microsoft Entra External ID</strong>.</p>
 </div>
 <hr/>
