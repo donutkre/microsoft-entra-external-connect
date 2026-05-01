@@ -1,4 +1,4 @@
-# AZ-204 — Microsoft Entra External ID (post-May 2025)
+# Microsoft Entra External ID (post-May 2025)
 
 > Live demo of customer identity in the **new** Microsoft Entra External ID.
 > This is what replaced **Azure AD B2C** for new tenants after **1 May 2025**.
@@ -53,7 +53,7 @@ For a developer, the only line that changes between workforce Entra and External
 
 Same `Microsoft.Identity.Web`, same `AddMicrosoftIdentityWebApp`, same OIDC flow. The host changes. That's it.
 
-This is the **AZ-204 talking point**: "If you know how to wire MSAL for workforce, you know how to wire it for External ID. Just point it at `ciamlogin.com`."
+"If you know how to wire MSAL for workforce, you know how to wire it for External ID. Just point it at `ciamlogin.com`."
 
 ---
 
@@ -367,7 +367,7 @@ Lets *see* what's in the ID token:
 ```cshtml
 @{ ViewData["Title"] = "Home Page"; }
 <div class="text-center">
-  <h1 class="display-4">AZ-204 External ID Demo</h1>
+  <h1 class="display-4">External ID</h1>
   <p class="lead">Signed in via <strong>Microsoft Entra External ID</strong>.</p>
 </div>
 <hr/>
